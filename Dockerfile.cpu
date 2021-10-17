@@ -15,3 +15,4 @@ RUN pip install tf-nightly
 # Checkout tensorflow/models at HEAD
 RUN git clone https://github.com/tensorflow/models.git /tensorflow_models
 
+lscpu
